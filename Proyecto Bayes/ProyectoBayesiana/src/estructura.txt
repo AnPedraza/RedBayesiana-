@@ -1,0 +1,5 @@
+Rain
+Maintenance
+Rain -> Train
+Maintenance -> Train
+Train -> Appointment
