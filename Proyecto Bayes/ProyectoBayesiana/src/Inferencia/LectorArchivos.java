@@ -21,8 +21,8 @@ import java.util.*;
  */
 public class LectorArchivos {
 
-    public static RedBayesiana cargarEstructura(String ruta) throws IOException {
-        RedBayesiana red = new RedBayesiana();
+    public static Redbayesiana cargarEstructura(String ruta) throws IOException {
+        Redbayesiana red = new Redbayesiana();
         try (BufferedReader br = new BufferedReader(new FileReader(ruta))) {
             String linea;
             while ((linea = br.readLine()) != null) {
@@ -41,7 +41,7 @@ public class LectorArchivos {
         return red;
     }
 
-    public static void cargarTablas(String ruta, RedBayesiana red) throws IOException {
+    public static void cargarTablas(String ruta, Redbayesiana red) throws IOException {
         try (BufferedReader br = new BufferedReader(new FileReader(ruta))) {
             String linea;
             Nodo nodoActual = null;

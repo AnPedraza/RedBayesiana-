@@ -1,10 +1,12 @@
+package Inferencia;
 import java.util.*;
 
+
 public class MotorInferencia {
-    private final RedBayesiana red;
+    private final Redbayesiana red;
     private int nivelTraza = 0; // para indentación visual
 
-    public MotorInferencia(RedBayesiana red) {
+    public MotorInferencia(Redbayesiana red) {
         this.red = red;
     }
 

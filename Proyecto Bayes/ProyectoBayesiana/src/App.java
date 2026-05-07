@@ -1,11 +1,11 @@
 import java.util.*;
+import Inferencia.*;
 
 public class App {
     public static void main(String[] args) throws Exception {
-
-        RedBayesiana red = LectorArchivos.cargarEstructura("estructura.txt");
-        LectorArchivos.cargarTablas("tablas.txt", red);
-
+        System.out.println("Ejecutando desde: " + System.getProperty("user.dir"));
+Redbayesiana red = LectorArchivos.cargarEstructura("estructura.txt");
+LectorArchivos.cargarTablas("tablas.txt", red);
         red.imprimirEstructura();
         red.imprimirTablas();
 

@@ -1,4 +1,4 @@
-package inferencia;
+package Inferencia;
 
 import java.util.*;
 

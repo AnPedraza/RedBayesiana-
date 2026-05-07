@@ -1,8 +1,8 @@
-package inferencia;
+package Inferencia;
 
 import java.util.*;
 
-public class RedBayesiana {
+public class Redbayesiana {
     // Orden de inserción importa para el orden topológico
     private final Map<String, Nodo> nodos = new LinkedHashMap<>();
 
